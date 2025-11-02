@@ -15,7 +15,7 @@ Geometric Lib - это простая и удобная Python-библиоте�
 
 ### Установка
 ```bash
-git clone https://github.com/your-username/geometric_lib
+git clone https://github.com/ivanovandrey78/university.git
 cd geometric_lib
 ```
 ### Использование
