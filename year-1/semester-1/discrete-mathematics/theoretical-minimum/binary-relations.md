@@ -1048,7 +1048,7 @@ graph LR
 
 [[#Navigation|🔼 Back to Navigation]]
 
-## #16-functions
+## 16-functions
 
 ### Определение функции
 
