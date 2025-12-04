@@ -1,0 +1,28 @@
+{
+  "name": "timestamp-inserter",
+  "displayName": "Timestamp Inserter",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "timestamp.insert",
+        "title": "Insert Timestamp"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/vscode": "^1.106.1",
+    "typescript": "^5.9.3"
+  }
+}
