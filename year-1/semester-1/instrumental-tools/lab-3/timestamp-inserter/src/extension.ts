@@ -69,12 +69,14 @@ function activate(context) {
     context.subscriptions.push(statusBar, insertCommand);
 }
 
+// HH:MM
 function formatTimeOnly(date) {
     const hours = date.getHours().toString().padStart(2, '0');
     const minutes = date.getMinutes().toString().padStart(2, '0');
     return `${hours}:${minutes}`;
 }
 
+// YY-MM-DD
 function formatDateOnly(date) {
     const year = date.getFullYear();
     const month = (date.getMonth() + 1).toString().padStart(2, '0');
@@ -82,6 +84,7 @@ function formatDateOnly(date) {
     return `${year}-${month}-${day}`;
 }
 
+// DD.MM.YYYY HH:MM:SS
 function formatDateTime(date) {
     const day = date.getDate().toString().padStart(2, '0');
     const month = (date.getMonth() + 1).toString().padStart(2, '0');
@@ -93,6 +96,7 @@ function formatDateTime(date) {
     return `${day}.${month}.${year} ${hours}:${minutes}:${seconds}`;
 }
 
+// CTRL + V
 function insertTextAtCursor(editor, text) {
     editor.edit(editBuilder => {
         editBuilder.replace(editor.selection, text);
