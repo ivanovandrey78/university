@@ -21,7 +21,6 @@
 - Базовая интеграция в Status Bar VS Code
 - Команда `timestamp.insert` для вызова из Command Palette (Ctrl+Shift+P)
 
-
 ## [0.0.1] - 2025-11-19
 ### Добавлено
 - Инициализация проекта TypeScript
