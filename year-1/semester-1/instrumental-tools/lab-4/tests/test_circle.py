@@ -42,6 +42,10 @@ class CircleTestCase(unittest.TestCase):
         """Тест длины окружности с большим радиусом"""
         self.assertAlmostEqual(perimeter(100), 628.3185307179587, places=6)
 
+    def test_area_string_input(self):
+        """Тест площади круга с строковым вводом (новый тест)"""
+        with self.assertRaises(TypeError):
+            area("10")
 
 if __name__ == '__main__':
     unittest.main()
