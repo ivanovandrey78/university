@@ -79,7 +79,7 @@ logs/
 *.cache
 
 # Documents (can be uncommented)
-# *.pdf
+*.pdf
 # *.doc
 # *.docx
 *.jpg
