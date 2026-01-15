@@ -1,0 +1,27 @@
+name: Python Unittests CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    strategy:
+      # ОС: Ubuntu и Windows
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      # 1. Download the code from the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Install Python on local machine
+      - name: Set up Python
+        uses: actions/setup-python@v5
+
+      #3. Run your unit tests with unittest
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
