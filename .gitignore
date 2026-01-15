@@ -1,21 +1,15 @@
-# Папка Obsidian
+# Folder Obsidian
 .obsidian/
-
-# ТЗ проектов 
-.pdf
-
-# ============================================  
-# СИСТЕМНЫЕ ФАЙЛЫ
-# ============================================
-
-# Файлы настроек IDE
+  
+# SYSTEM FILES
+# Settings files IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 *~
 
-# Временные файлы ОС
+# Temporary files ОС
 .DS_Store
 .DS_Store?
 ._*
@@ -24,10 +18,7 @@
 ehthumbs.db
 Thumbs.db
 
-# ============================================
-# ЯЗЫКИ ПРОГРАММИРОВАНИЯ
-# ============================================
-
+# PROGRAMMING LANGUAGES
 # Python
 __pycache__/
 *.py[cod]
@@ -71,52 +62,47 @@ yarn-debug.log*
 yarn-error.log*
 .lock-wscript
 
-# ============================================
-# КОМПИЛИРУЕМЫЕ ФАЙЛЫ И ЛОГИ
-# ============================================
-
-# Исполняемые файлы
+# COMPILED FILES AND LOGS
+# Executable files
 *.exe
 *.bin
 *.msi
 
-# Логи
+# Logs
 *.log
 logs/
 
-# Базы данных и дампы
+# Databases and dumps
 *.sqlite
 *.db
 *.dump
 *.cache
 
-# Документы (можно раскомментировать если нужно)
+# Documents (can be uncommented)
 # *.pdf
 # *.doc
 # *.docx
 
-# ============================================
-# ПРОЧЕЕ
-# ============================================
-
-# Резервные копии
+# OTHER
+# Backups
 *.bak
 *.backup
 *.tmp
 
-# Архивы
+# Archives
 *.zip
 *.rar
 *.7z
 *.tar.gz
+*.haf
 
-# Конфиденциальные данные
+# Confidential data
 .env
 .config
 credentials.json
 secrets.ini
 
-# Папки сборки
+# Build folders
 build/
 dist/
 target/
