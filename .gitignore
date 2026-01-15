@@ -82,6 +82,8 @@ logs/
 # *.pdf
 # *.doc
 # *.docx
+*.jpg
+*.jpeg
 
 # OTHER
 # Backups
