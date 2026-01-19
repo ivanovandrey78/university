@@ -1,5 +1,7 @@
 # SAT 
 
+---
+
 ## Boolean satisfiability (SAT)
 
 **Идея простая:**  
